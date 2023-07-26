@@ -1,4 +1,5 @@
 import React from 'react';
+import Hello from './components/Hello';
 import logo from './logo.svg';
 import './App.css';
 
@@ -10,6 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <Hello message={'你好邢浩东'}></Hello>
         <a
           className="App-link"
           href="https://reactjs.org"
